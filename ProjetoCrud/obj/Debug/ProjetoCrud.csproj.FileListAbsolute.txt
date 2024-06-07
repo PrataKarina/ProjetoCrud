@@ -1,0 +1,14 @@
+C:\Users\Graci\Desktop\Karina\Projeto Crud\ProjetoCrud\ProjetoCrud\obj\Debug\ProjetoCrud.csproj.AssemblyReference.cache
+C:\Users\Graci\Desktop\Karina\Projeto Crud\ProjetoCrud\ProjetoCrud\obj\Debug\ProjetoCrud.Form1.resources
+C:\Users\Graci\Desktop\Karina\Projeto Crud\ProjetoCrud\ProjetoCrud\obj\Debug\ProjetoCrud.frmCadastroCliente.resources
+C:\Users\Graci\Desktop\Karina\Projeto Crud\ProjetoCrud\ProjetoCrud\obj\Debug\ProjetoCrud.Properties.Resources.resources
+C:\Users\Graci\Desktop\Karina\Projeto Crud\ProjetoCrud\ProjetoCrud\obj\Debug\ProjetoCrud.csproj.GenerateResource.cache
+C:\Users\Graci\Desktop\Karina\Projeto Crud\ProjetoCrud\ProjetoCrud\obj\Debug\ProjetoCrud.csproj.CoreCompileInputs.cache
+C:\Users\Graci\Desktop\Karina\Projeto Crud\ProjetoCrud\ProjetoCrud\bin\Debug\ProjetoCrud.exe.config
+C:\Users\Graci\Desktop\Karina\Projeto Crud\ProjetoCrud\ProjetoCrud\bin\Debug\ProjetoCrud.exe
+C:\Users\Graci\Desktop\Karina\Projeto Crud\ProjetoCrud\ProjetoCrud\bin\Debug\ProjetoCrud.pdb
+C:\Users\Graci\Desktop\Karina\Projeto Crud\ProjetoCrud\ProjetoCrud\obj\Debug\ProjetoCrud.exe
+C:\Users\Graci\Desktop\Karina\Projeto Crud\ProjetoCrud\ProjetoCrud\obj\Debug\ProjetoCrud.pdb
+C:\Users\Graci\Desktop\Karina\Projeto Crud\ProjetoCrud\ProjetoCrud\obj\Debug\ProjetoCrud.frmEndereço.resources
+C:\Users\Graci\Desktop\Karina\Projeto Crud\ProjetoCrud\ProjetoCrud\obj\Debug\ProjetoCrud.Excluir_Cliente.resources
+C:\Users\Graci\Desktop\Karina\Projeto Crud\ProjetoCrud\ProjetoCrud\obj\Debug\ProjetoCrud.ExcluirEndereço.resources
