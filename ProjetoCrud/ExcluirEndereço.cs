@@ -42,9 +42,17 @@ namespace ProjetoCrud
 
                     cmd.Parameters.Add(new SqlParameter("@CEP", cepSemMascara));
 
-                    cmd.ExecuteNonQuery();
+                    int linhasAfetadas = cmd.ExecuteNonQuery();
 
-                    MessageBox.Show("Endereço excluído com sucesso", "Controle de Estoque", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    if (linhasAfetadas == 0)
+                    {
+                        MessageBox.Show("Endereço não encontrado", "Controle de Estoque", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Endereço excluído com sucesso", "Controle de Estoque", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    }
+
                 }
                 catch (Exception ex)
                 {
