@@ -35,9 +35,17 @@ namespace ProjetoCrud
                         string cpfSemMascara = mskCPF.Text.Replace(".", "").Replace("-", "");
 
                         cmd.Parameters.Add(new SqlParameter("@CPF", cpfSemMascara));
-                        cmd.ExecuteNonQuery();
 
-                        MessageBox.Show("Cliente excluído com sucesso", "Controle de Estoque", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        int linhasAfetadas = cmd.ExecuteNonQuery();
+
+                        if(linhasAfetadas == 0)
+                        {
+                            MessageBox.Show("Cliente não encontrado", "Controle de Estoque", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        }
+                        else
+                        {
+                            MessageBox.Show("Cliente excluído com sucesso", "Controle de Estoque", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        }
                     }
                     catch (Exception ex)
                     {
